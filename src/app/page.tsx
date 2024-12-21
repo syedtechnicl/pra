@@ -3,7 +3,9 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <h1>Practice Practice </h1>
+      <h1>
+        Practice <span style={{ color: "red" }}>Practice</span>{" "}
+      </h1>
     </>
   );
 };
